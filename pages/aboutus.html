@@ -37,7 +37,7 @@
             <a class="menu__link" href="./accesories.html">Accesories</a>
           </li>
           <li class="menu__item">
-            <a class="menu__link" href="./aboutus.html">About Us</a>
+            <a class="menu__link--active" href="./aboutus.html">About Us</a>
           </li>
         </ul>
       </nav> <!-- navbar end -->
@@ -76,76 +76,85 @@
           </article>
         </div>
       </section>
-      <!-- <section id="design" class="bg-principal">
-        <div class="container">
-          <article class="design__article">
-            <h1 class="design__title content">About Us
-            </h1>
-            <p class="design__text content">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ducimus, cupiditate!</p>
-            <p class="design__caption content">Lorem, ipsum dolor.</p>
-          </article>
-          <article class="design__article">
-            <p class="design__text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Adipisci impedit ullam quaerat iusto, est nesciunt sequi maxime quidem. Esse, eligendi exercitationem iste aliquam eius tempora.</p>
-            <p class="design__text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officiis asperiores ipsam harum vel, perferendis, tenetur rem vero aliquam quisquam fugit commodi ab ullam eos, minus dolores ducimus. Repudiandae nam consequuntur magni!</p>
-          </article>
-        </div>
-      </section> -->
       <!-- FORM -->
-      <form action="enviar.php" method="" enctype="" class="bg-principal">
-        <div>
-          <label for="nombre">Name</label>
-          <input type="text" id="nombre" placeholder="Tipe your name..." required>
+      <section id="contactus" class="bg-obscure">
+        <div class="container">
+          <h1 class="contactus__title">Contact Us</h1>
         </div>
-        <br>
-        <div>
-          <label for="mail">Email</label>
-          <input required type="email" id="mail" name="mail">
+        <div class="container">
+          <div class="card" style="width: 60rem;">
+            <div class="card-body">
+              <form action="" method="" enctype="" class="">
+                <div class="form">
+                  <label for="exampleFormControlInput1" class="form-label">Name</label>
+                  <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="tipe your name...">
+                </div>
+                <div class="form">
+                  <label for="exampleFormControlInput1" class="form-label">Email</label>
+                  <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+                </div>
+                <div class="form">
+                  <label for="exampleFormControlInput1" class="form-label">Password</label>
+                  <input type="password" class="form-control" id="exampleFormControlInput1" placeholder="">
+                </div>
+                <div class="form">
+                  <label for="exampleFormControlTextarea1" class="form-label">Feedback</label>
+                  <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                </div>
+                <div class="form_check_a">
+                  <div class="form-check">
+                    <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                    <label class="form-check-label" for="flexRadioDefault1">
+                    English
+                    </label>
+                  </div>
+                  <div class="form-check">
+                    <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>
+                    <label class="form-check-label" for="flexRadioDefault2">
+                    Non English
+                    </label>
+                  </div>
+                </div>
+                <div class="form_check_b">
+                  <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                    <label class="form-check-label" for="flexCheckDefault">
+                    Accept terms and conditions
+                    </label>
+                  </div>
+                  <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
+                    <label class="form-check-label" for="flexCheckChecked">
+                    Receive news
+                    </label>
+                  </div>
+                </div>
+                <div class="countries">
+                  <label for="pais">Countries</label>
+                  <select name="places" id="pais">
+                    <option value="1">Argentina</option>
+                    <option value="2">Brasil</option>
+                    <option value="3">Chile</option>
+                    <option value="3">Paraguay</option>
+                    <option value="3">Perú</option>
+                    <option value="3">Colombia</option>
+                    <option value="3">Venezuela</option>
+                    <option value="3">United Estates</option>
+                    <option value="3">Italy</option>
+                    <option value="3">France</option>
+                    <option value="3">England</option>
+                  </select>
+                </div>
+                <div class="buttons">
+                  <input class="btn btn-warning btn-lg" for="btn-check-2-outlined" type="submit" value="Submit">
+                  <input class="btn btn-warning btn-lg" for="btn-check-2-outlined" type="reset" value="Reset">
+                  <input class="btn btn-warning btn-lg" for="btn-check-2-outlined" type="button" value="input">
+                </div>
+              </form>
+            </div>
+          </div>
         </div>
-        <br>
-        <div>
-          <label for="clave">Password</label>
-          <input type="password" id="clave">
-        </div>
-        <br>
-        <div>
-          <label for="comentarios">Feedback</label>
-          <textarea name="" id="comentarios" cols="30" rows="5"></textarea>
-        </div>
-        <br>
-        <div>
-          <label for="">Language</label>
-          <input type="radio" name="curso" id="si"> English
-          <input type="radio" name="curso" id="no"> Non English
-        </div>
-        <br>
-        <div>
-          <input type="checkbox" name="opciones" id=""> Accept terms and conditions
-          <input type="checkbox" name="opciones" id=""> Receive news
-        </div>
-        <br>
-        <div>
-          <label for="pais">Countries</label>
-          <select name="" id="pais">
-            <option value="1">Argentina</option>
-            <option value="2">Brasil</option>
-            <option value="3">Chile</option>
-            <option value="3">Paraguay</option>
-            <option value="3">Perú</option>
-            <option value="3">Colombia</option>
-            <option value="3">Venezuela</option>
-            <option value="3">United Estates</option>
-            <option value="3">Italy</option>
-            <option value="3">France</option>
-            <option value="3">England</option>
-          </select>
-        </div>
-        <br>
-        <div>
-          <input type="submit" value="Send">
-          <input type="reset" value="Delete">
-          <input type="button" value="Default">
-        </div>
-      </form>
+      </section>
       <!-- FOOTER -->
       <footer>
         <div class="container">

@@ -49,6 +49,11 @@ header {
         color: $light;
         transition: all .3s ease-in-out;
 
+        &--active {
+          @extend .menu__link;
+          border-bottom: 2px solid $primary;
+        }
+
         &:hover {
           color: $accent;
           padding: $sp-xs;

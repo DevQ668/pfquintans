@@ -93,11 +93,13 @@ header {
       font-weight: 100; }
       header .navbar .menu__item {
         padding: 1rem; }
-      header .navbar .menu__link {
+      header .navbar .menu__link, header .navbar .menu__link--active {
         padding: 0.8rem;
         color: #FDFDFD;
         transition: all .3s ease-in-out; }
-        header .navbar .menu__link:hover {
+        header .navbar .menu__link--active {
+          border-bottom: 2px solid #990000; }
+        header .navbar .menu__link:hover, header .navbar .menu__link--active:hover {
           color: #FF4F33;
           padding: 0.8rem; }
 
@@ -620,3 +622,57 @@ footer {
   font-size: 1.2em;
   font-weight: 200;
   margin-bottom: 2rem; }
+
+/* FORM */
+#contactus {
+  padding: 0.8rem;
+  padding-top: 3.2rem;
+  padding-bottom: 3.2rem;
+  gap: 3.2rem; }
+
+.contactus__title {
+  padding-top: 5rem;
+  font-size: 2em;
+  font-weight: 200;
+  margin-bottom: 2.2rem;
+  color: white; }
+
+#contactus div {
+  padding-top: 3.2rem;
+  padding-bottom: 3.2rem;
+  gap: 3.2rem; }
+
+#contactus div .card {
+  padding-top: 5px; }
+
+#contactus div .card-body {
+  padding-top: 5%; }
+
+#contactus div.form {
+  padding: 10px; }
+
+#contactus div.form_check_a {
+  padding-top: 0;
+  padding-left: 2%;
+  padding-bottom: 0%;
+  display: flex;
+  max-height: 50px; }
+
+#contactus div.form_check_b {
+  padding-top: 0;
+  padding-left: 2%;
+  padding-bottom: 0%;
+  display: flex;
+  max-height: 50px; }
+
+#contactus div.countries {
+  padding-top: 3.2rem;
+  padding-left: 2%;
+  gap: 3.2rem;
+  display: flex; }
+
+#contactus div.buttons {
+  padding-top: 3.2rem;
+  padding-left: 2%;
+  gap: 3.2rem;
+  display: flex; }
