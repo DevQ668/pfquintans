@@ -107,13 +107,14 @@ footer {
 /* MEDIAS */
 /* FOOTER */
 
-@media screen and (max-width:930px) {
+@media screen and (max-width:768px) {
   footer .row__l {
-  display: flex;
+  display: flex !important;
   flex-direction: column;
-  justify-content: space-between;
-  padding: 40px 100px;
-  gap: $sp-lg;
+  justify-content: space-between !important;
+  padding: 40px 20px !important;
+  gap: $sp-lg !important;
+  
 }
   footer .row__s {
     flex-direction: column;

@@ -69,34 +69,34 @@ header {
 
 @media screen and (max-width: 768px) {
   .navbar {
-    align-items: center;
-    font-size: $sp-sm;
+    align-items: center !important;
+    font-size: $sp-sm !important;
   }
 
   .navbar .menu {
-    display: none;
-    gap: 1rem;
-    flex-wrap: wrap;
-    align-items: center;
+    display: none !important;
+    gap: 1rem !important;
+    flex-wrap: wrap !important;
+    align-items: center !important;
   }
 
-.hamburger,
-.checkevent {
-  display: block;
-  position: absolute;
-  width: 32px;
-  height: 34px;
-  right: 16px;
-  top: 19px;
+  .hamburger,
+  .checkevent {
+  display: block !important;
+  position: absolute !important;
+  width: 34px !important;
+  height: 34px !important;
+  right: 16px !important;
+  top: 19px !important;
   }
 
-.checkevent:checked + .menu {
-  display: block;
-  flex-basis: 100%;
+  .checkevent:checked + .menu {
+  display: block !important;
+  flex-basis: 100% !important;
   }
 
-li.menu__item {
-  display: flex;
-  justify-content: right;
+  li.menu__item {
+  display: flex !important;
+  justify-content: right !important;
   }
 }
